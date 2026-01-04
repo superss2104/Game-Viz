@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+
+# Output data
+data/processed/
+data/highlights/
+
+# OS junk
+.DS_Store
+Thumbs.db

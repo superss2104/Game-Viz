@@ -1,17 +1,26 @@
-# Virtual environments
-venv/
+# --- Videos & generated media ---
+*.mp4
+*.avi
+*.mkv
 
-# Python cache
+# --- Generated clips ---
+clips/
+
+# --- Python cache ---
 __pycache__/
 *.pyc
 
-# IDE
+# --- Virtual environments ---
+.venv/
+venv/
+
+# --- IDE / OS ---
 .idea/
-
-# Output data
-data/processed/
-data/highlights/
-
-# OS junk
+.vscode/
 .DS_Store
 Thumbs.db
+
+# --- External binaries ---
+ffmpeg/
+ffmpeg-*/
+
